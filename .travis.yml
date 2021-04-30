@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+- node
+- lts/*
+cache:
+  directories:
+  - node_modules
+before_install: if [[ `npm -v` != 6* ]]; then npm i -g npm@6; fi
+script: npm run build && npm run test

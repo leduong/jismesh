@@ -1,0 +1,41 @@
+{
+  "name": "jismesh",
+  "version": "0.1.2",
+  "description": "JavaScript port of python jismesh package",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "webpack --mode development && webpack --mode production",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leduong/jismesh.git"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "dist/"
+  ],
+  "keywords": [
+    "jismesh",
+    "geo",
+    "geocode",
+    "geolocation",
+    "geometry"
+  ],
+  "author": "Le Duong <dangduong2401@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leduong/jismesh/issues"
+  },
+  "homepage": "https://github.com/leduong/jismesh#readme",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0"
+  }
+}
