@@ -1,6 +1,6 @@
 {
   "name": "jismesh",
-  "version": "0.1.21",
+  "version": "1.7.21",
   "description": "JavaScript port of python jismesh package",
   "main": "index.js",
   "publishConfig": {
